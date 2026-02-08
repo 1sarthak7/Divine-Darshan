@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVINE // DARSHAN</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Manrope:wght@300;500&family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="ambient-sound" loop>
+        <source src="assets/temple-sound.mp3" type="audio/mpeg">
+    </audio>
+
+    <canvas id="fluid-canvas"></canvas>
+    <div class="noise"></div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"></div>
+
+    <div class="overlay-gate" id="gate">
+        <div class="gate-content">
+            <h1 class="gate-title char-anim">PRANA</h1>
+            <p class="gate-sub reveal-text"> The Breath of Divinity </p>
+            
+            <div class="magnetic-wrap">
+                <button class="enter-btn" id="enter-btn">
+                    <span class="btn-text">ENTER SANCTUM</span>
+                    <div class="btn-fill"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="smooth-wrapper">
+        <div class="smooth-content">
+
+            <section class="section hero">
+                <div class="hero-content">
+                    <h1 class="hero-sanskrit blur-in">नमस्ते</h1>
+                    
+                    <div class="hero-eng">
+                        <div class="line-mask"><span class="reveal-text">I BOW TO THE</span></div>
+                        <div class="line-mask"><span class="reveal-text gold-text">DIVINE IN YOU</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section deity" id="ganesha">
+                <div class="visual-col">
+                    <div class="img-mask">
+                        <img src="assets/ganesha.jpg" alt="Ganesha">
+                    </div>
+                </div>
+                <div class="text-col">
+                    <h2 class="god-name char-anim">GANESHA</h2>
+                    <p class="sanskrit-verse reveal-text">वक्रतुण्ड महाकाय</p>
+                    <div class="line-mask"><p class="minimal-desc reveal-text">ARCHITECT OF BEGINNINGS</p></div>
+                </div>
+            </section>
+
+            <section class="section deity invert-layout" id="brahma">
+                <div class="visual-col">
+                    <div class="img-mask">
+                        <img src="assets/brahma.jpg" alt="Brahma">
+                    </div>
+                </div>
+                <div class="text-col">
+                    <h2 class="god-name char-anim">BRAHMA</h2>
+                    <p class="sanskrit-verse reveal-text">हिरण्यगर्भाय</p>
+                    <div class="line-mask"><p class="minimal-desc reveal-text">SOURCE OF CREATION</p></div>
+                </div>
+            </section>
+
+            <section class="section deity" id="vishnu">
+                <div class="visual-col">
+                    <div class="img-mask">
+                        <img src="assets/vishnu.jpg" alt="Vishnu">
+                    </div>
+                </div>
+                <div class="text-col">
+                    <h2 class="god-name char-anim">VISHNU</h2>
+                    <p class="sanskrit-verse reveal-text">शान्ताकारं</p>
+                    <div class="line-mask"><p class="minimal-desc reveal-text">KEEPER OF COSMIC ORDER</p></div>
+                </div>
+            </section>
+
+            <section class="section deity invert-layout" id="shiva">
+                <div class="visual-col">
+                    <div class="img-mask">
+                        <img src="assets/shiva.jpg" alt="Shiva">
+                    </div>
+                </div>
+                <div class="text-col">
+                    <h2 class="god-name char-anim">SHIVA</h2>
+                    <p class="sanskrit-verse reveal-text">महादेव</p>
+                    <div class="line-mask"><p class="minimal-desc reveal-text">THE SILENCE AFTER DESTRUCTION</p></div>
+                </div>
+            </section>
+            
+             <section class="section deity" id="durga">
+                <div class="visual-col">
+                    <div class="img-mask">
+                        <img src="assets/durga.jpg" alt="Durga">
+                    </div>
+                </div>
+                <div class="text-col">
+                    <h2 class="god-name char-anim">DURGA</h2>
+                    <p class="sanskrit-verse reveal-text">शक्ति</p>
+                    <div class="line-mask"><p class="minimal-desc reveal-text">FEROCIOUS COMPASSION</p></div>
+                </div>
+            </section>
+
+            <section class="section deity invert-layout" id="hanuman">
+                <div class="visual-col">
+                    <div class="img-mask">
+                        <img src="assets/hanuman.jpg" alt="Hanuman">
+                    </div>
+                </div>
+                <div class="text-col">
+                    <h2 class="god-name char-anim">HANUMAN</h2>
+                    <p class="sanskrit-verse reveal-text">बजरंगबली</p>
+                    <div class="line-mask"><p class="minimal-desc reveal-text">ABSOLUTE SURRENDER</p></div>
+                </div>
+            </section>
+
+            <section class="section footer">
+                <h2 class="peace blur-in">OM SHANTI</h2>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="script.js"></script>
+
+<div class="author-watermark">
+    Created by Sarthak Bhopale
+</div>
+
+</body>
+</html>
