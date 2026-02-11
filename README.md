@@ -48,19 +48,7 @@ No frameworks, build tools, or backend services are used.
 
 ---
 
-## Key Visual & Interaction Features
 
-* Fullscreen cinematic sections
-* Scroll-driven narrative flow
-* Canvas-based fluid and particle background
-* Grain and noise overlay for organic texture
-* Custom cursor with subtle magnetic behavior
-* Entry gate with controlled user interaction
-* Image masking and desaturation-to-color transitions
-* Sanskrit typography using Devanagari fonts
-* Ambient temple sound (user-initiated)
-
----
 
 ## Project Structure
 
