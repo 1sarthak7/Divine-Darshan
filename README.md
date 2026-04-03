@@ -97,7 +97,7 @@ It is compatible with static hosting services such as:
 
 Designed and developed by **Sarthak Bhopale**.
 
-This project is intended for educational, artistic, and portfolio use, demonstrating cinematic UI design, animation control, and experiential storytelling using core web technologies.
+This project is intended for educational artistic and portfolio use demonstrating cinematic UI design, animation control and experiential storytelling using core web technologies
 
 ---
 
